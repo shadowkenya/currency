@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             hour: '2-digit',
             minute: '2-digit'
         };
-        lastUpdated.textContent = `Last updated: ${now.toLocaleDateString('en-US', options)}`;
+        lastUpdated.textContent = `${now.toLocaleDateString('en-US', options)}`;
     }
 
     function calculateConversion() {
